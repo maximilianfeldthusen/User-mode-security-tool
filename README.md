@@ -165,6 +165,7 @@ fpc -O2 ElfSecurityScanner.pas
 ## Optional Flags
 
 ### Static Linking (if supported by your distro)
+
 ```bash
 -XX -Xs
 ```
@@ -176,6 +177,4 @@ fpc -O2 ElfSecurityScanner.pas
 -Parm -Tlinux
 ```
 - Requires appropriate 32‑bit Free Pascal libraries installed  
-```
 
-Would you like me to also **add a “Quick Reference Table”** summarizing the commands per distro and optional flags so it’s easier to scan at a glance?

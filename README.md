@@ -114,15 +114,6 @@ Less precise than per‑section analysis but still highlights anomalies.
 
 ## Compilation and Usage
 
-```bash
-# Compile on Linux
-fpc -O2 ElfSecurityScanner.pas
-```
-
-```bash
-# Run
-./ElfSecurityScanner /path/to/binary
-```
 ## Install Free Pascal
 - **Debian/Ubuntu**:  
   ```bash

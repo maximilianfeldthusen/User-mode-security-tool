@@ -117,12 +117,12 @@ Less precise than per‑section analysis but still highlights anomalies.
 ```bash
 # Compile on Linux
 fpc -O2 ElfSecurityScanner.pas
+```
 
+```bash
 # Run
 ./ElfSecurityScanner /path/to/binary
-
----
-
+```
 ## Install Free Pascal
 - **Debian/Ubuntu**:  
   ```bash

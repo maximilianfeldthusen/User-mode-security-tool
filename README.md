@@ -123,10 +123,6 @@ fpc -O2 ElfSecurityScanner.pas
 
 ---
 
-
-```markdown
-# How to Compile on Linux
-```
 ## Install Free Pascal
 - **Debian/Ubuntu**:  
   ```bash

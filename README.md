@@ -1,5 +1,4 @@
 
-## User-mode-security-tool
 
 # ELF Security Scanner (User-Mode)
 

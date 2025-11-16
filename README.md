@@ -124,11 +124,9 @@ fpc -O2 ElfSecurityScanner.pas
 ---
 
 
-Here’s your text converted into clean **GitHub-flavored Markdown** with headings, lists, and code blocks for clarity:
-
 ```markdown
 # How to Compile on Linux
-
+```
 ## Install Free Pascal
 - **Debian/Ubuntu**:  
   ```bash

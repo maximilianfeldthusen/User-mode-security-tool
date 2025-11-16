@@ -121,7 +121,7 @@ fpc -O2 ElfSecurityScanner.pas
 # Run
 ./ElfSecurityScanner /path/to/binary
 
------
+---
 
 
 Here’s your text converted into clean **GitHub-flavored Markdown** with headings, lists, and code blocks for clarity:

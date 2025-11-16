@@ -120,3 +120,68 @@ fpc -O2 ElfSecurityScanner.pas
 
 # Run
 ./ElfSecurityScanner /path/to/binary
+
+-----
+
+
+Here’s your text converted into clean **GitHub-flavored Markdown** with headings, lists, and code blocks for clarity:
+
+```markdown
+# How to Compile on Linux
+
+## Install Free Pascal
+- **Debian/Ubuntu**:  
+  ```bash
+  sudo apt-get install fpc
+  ```
+- **Fedora**:  
+  ```bash
+  sudo dnf install fpc
+  ```
+- **Arch**:  
+  ```bash
+  sudo pacman -S fpc
+  ```
+
+---
+
+## Save the Code
+Save the source code to a file named:
+
+```bash
+ElfSecurityScanner.pas
+```
+
+---
+
+## Compile
+```bash
+fpc -O2 ElfSecurityScanner.pas
+```
+
+---
+
+## Run
+```bash
+./ElfSecurityScanner /path/to/binary
+```
+
+---
+
+## Optional Flags
+
+### Static Linking (if supported by your distro)
+```bash
+-XX -Xs
+```
+- Strips and smartlinks the binary  
+- Note: static linking may require additional setup  
+
+### 32-bit Target (if needed)
+```bash
+-Parm -Tlinux
+```
+- Requires appropriate 32‑bit Free Pascal libraries installed  
+```
+
+Would you like me to also **add a “Quick Reference Table”** summarizing the commands per distro and optional flags so it’s easier to scan at a glance?
